@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar{
+    background-color: white;
+    font-family: 'Crimson Text', serif;
+    height: 80px;
+    width: 100%;
+}
+.nav-link:hover{
+    font-size: 22px;
+}
+.navbar .navbar-brand{
+    font-size: 30px;
+}
+.navbar-collapse{
+    font-size: 20px;
+}
+.nav-item:hover{
+    color: rgb(7, 170, 199);
+}
+.signin{
+    text-decoration: none;
+}
+
+.header{
+    background-image: url('./images/bg_image.jpg');
+    background-size: cover;
+    padding: 15rem;
+    text-align: center;
+}
+.header h1{
+    color: rgb(53, 140, 211);
+    font-family: 'Vollkorn', serif;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.header h1 span{
+    color: rgb(40, 65, 16);
+}
+.header p{
+    color: rgb(63, 47, 6);
+    font-size: 18px;
+    font-weight: bold;
+}
+.header button{
+    width: 180px;
+    height: 50px;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Vollkorn', serif;
+    color: rgb(53, 140, 211);
+    border: 2px solid;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.header button a{
+    text-decoration: none;  
+}
+.header button:hover{
+   background-color: rgb(53, 140, 211);
+   color: #fff;
+   font-weight: none;
+}
+.book{
+    margin: 20px;
+    text-align: center;
+}
+.book h1{
+    color: rgb(53, 140, 211);
+    font-family: 'Vollkorn', serif;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.book h1 span{
+    color: rgb(40, 65, 16);
+}
+.book img{
+    width: 80%;
+    text-align: center;
+}
+.form-control{
+    font-family: 'Vollkorn', serif;
+}
+.book button{
+    width: 180px;
+    height: 50px;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Vollkorn', serif;
+    color: rgb(53, 140, 211);
+    border: 2px solid;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.book button a{
+    text-decoration: none;  
+}
+
+
+.packages{
+    margin: 20px;
+    text-align: center;
+}
+.packages h1{
+    color: rgb(53, 140, 211);
+    font-family: 'Vollkorn', serif;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.packages h1 span{
+    color: rgb(40, 65, 16);
+}
+.packages .stars{
+    color: rgb(53, 140, 211);
+}
+.card-body{
+    font-family: 'PT Serif', serif;
+}
+.card-body h4{
+    color: rgb(53, 140, 211);
+}
+.card-body h5{
+    color: rgb(53, 140, 211);
+}
+.card-body p{
+    color: rgb(40, 65, 16);
+}
+.packages .button{
+    width: 180px;
+    height: 40px;
+    margin: 20px;
+    color: rgb(40, 65, 16);
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Vollkorn', serif;
+    font-weight: bolder;
+}
+.packages .button:hover{
+    background-color: rgb(40, 65, 16);
+    color: #fff;
+}
+.packages .cards{
+    border: 2px inset;
+    padding: 10px;
+}
+.packages .cards:hover{
+    border: 3px solid rgb(120, 193, 226);
+    box-shadow: 5px 5px 5px 5px rgb(119, 182, 138);
+}
+
+
+.services{
+    margin: 20px;
+    text-align: center;
+}
+.services h1{
+    color: rgb(53, 140, 211);
+    font-family: 'Vollkorn', serif;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.services h1 span{
+    color: rgb(40, 65, 16);
+}
+.services .row{
+    margin: 20px;
+}
+.services .cards img{
+    border-radius: 100px;
+}
+.services .cards{
+    padding: 10px;
+}
+.services .cards:hover{
+    background-color: rgb(139, 209, 156);
+    border-radius: 50px;
+}
+
+
+.gallery{
+    margin: 20px;
+    text-align: center;
+}
+.gallery h1{
+    color: rgb(53, 140, 211);
+    font-family: 'Vollkorn', serif;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.gallery h1 span{
+    color: rgb(40, 65, 16);
+}
+.gallery .row{
+    margin: 20px;
+}
+.gallery img{
+    margin: 10px;
+    height: 200px;
+    width: 250px;
+    border: 2px solid rgb(40, 65, 16);
+}
+.gallery img:hover{
+    height: 250px;
+    width: 260px;
+    transform: scale(1);
+    border-radius: 10px;
+}
+#contact{
+    background-color: rgb(204, 212, 216);
+}
+.contact{
+    margin: 20px;
+    text-align: center;
+}
+.contact h1{
+    color: rgb(53, 140, 211);
+    font-family: 'Vollkorn', serif;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.contact h1 span{
+    color: rgb(40, 65, 16);
+}
+
+
+
+
+
+
+
+@media (min-width:400px){
+    .header{
+        background-size: 80px, no-repeat;
+    }
+}
